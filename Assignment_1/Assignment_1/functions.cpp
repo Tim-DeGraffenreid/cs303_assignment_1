@@ -16,19 +16,10 @@ void process(ArrayData& data) {
             cout << "The index of the value " << value << " is " << index << endl << endl;
             break;
         case 1:
-            int* results;
-            cout << "Enter the index of the value you would like to update: ";
-            cin >> index;
-            cout << "Enter the new value you want for index " << index << " : ";
-            cin >> value;
-            results = data.update(index, value);
-            cout << "Updated from " << results[1] << " to " << results[0] << endl << endl;
+            data.update();
             break;
         case 2:
-            cout << "Enter the value you would like to add to the array: ";
-            cin >> value;
-            data.push(value);
-            cout << value << " was added to the array." << endl << endl;
+            data.push();
             break;
         case 3:
             cout << "Enter the index of the value you would like to remove: ";

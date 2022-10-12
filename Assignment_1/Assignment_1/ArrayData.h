@@ -8,8 +8,9 @@ public:
 	ArrayData();						//Initialize ArrayData object and read text file
 	~ArrayData();						//Destroy ArrayData object when no longer needed
 	int find(const int& value);			//finds value(int) in arrayData array, returns index or -1 if not found
-	int* update(int idx, int value);	//updates integer value given (index, value), returns {0: new value, 1: old value}
-	void push(const int& value);		//add integer value to end of array
+	void update();	//updates integer value given (index, value), returns {0: new value, 1: old value}
+	void push();						//add integer value to end of array by asking for user input
+	void push(const int& value);		//add integer value to end of array from file
 	void remove(const int& idx);		//removes value of given index, returns true if successful
 private:
 	void readData();					//reads data from file and assigns to arrayData array
