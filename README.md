@@ -8,7 +8,8 @@ To run the code for assignment_1
   5) Enter your values
   6) At the menu screen enter 4 to exit
 
-![Assignment1](https://user-images.githubusercontent.com/97173682/191138298-6680f969-7680-433f-b9f0-5d89844bfa95.png)
+
+![assignment1-with-errors](https://user-images.githubusercontent.com/97173682/196437379-e20f9fe4-8a89-4e37-abdd-f994f49c55d0.png)
 
 To run the code for Employees
   1) run the application Employees
