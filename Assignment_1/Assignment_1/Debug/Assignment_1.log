@@ -1,5 +1,2 @@
-﻿  ArrayData.cpp
-D:\School\Data Structures\Assignments\cs303_assignment_1\assignment_1\Assignment_1\ArrayData.cpp(51,29): warning C4101: 'ex': unreferenced local variable
-D:\School\Data Structures\Assignments\cs303_assignment_1\assignment_1\Assignment_1\ArrayData.cpp(76,29): warning C4101: 'ex': unreferenced local variable
-D:\School\Data Structures\Assignments\cs303_assignment_1\assignment_1\Assignment_1\ArrayData.cpp(107,29): warning C4101: 'ex': unreferenced local variable
+﻿  LINK : D:\School\Data Structures\Assignments\cs303_assignment_1\assignment_1\Debug\Assignment_1.exe not found or not built by the last incremental link; performing full link
   Assignment_1.vcxproj -> D:\School\Data Structures\Assignments\cs303_assignment_1\assignment_1\Debug\Assignment_1.exe

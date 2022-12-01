@@ -1,0 +1,49 @@
+#ifndef LINKED_QUEUE_TC_
+#define LINKED_QUEUE_TC_
+
+template<typename Item_Type>
+	queue<Item_Type>::queue(): front_of_queue(NULL), back_of_queue(NULL), num_items(0){}
+
+template<typename Item_Type>
+	queue<Item_Type>::push(const Item_Type& item){
+		if(front_of_queue == NULL){
+			back_of_queue = new Node(item, NULL);
+			front_of_queue = back_of_queue;
+		}else{
+			back_of_queue->next = new Node(item, NULL);
+			back_of_queue = back_of_queue-next;
+		}
+		num_items++;
+	}
+
+template<typename Item_Type>
+	Item_Type& queue<Item_Type>::front(){
+		return front_of_queue->data;
+	}
+
+template<typename Item_Type>
+	const Item_Type& queue<Item_Type>::front() const {
+		return front_of_queue->data;
+	}
+
+template<typename Item_Type>
+	void queue<Item_Type>::pop(){
+		Node* old_front = front_of_queue;
+		front_of_queue = front_of_queue->next;
+		if(front_of_queue == NULL){
+			back_of_queue = NULL;
+		}
+		delete old_front;
+		num_items--;
+	}
+
+template<typename Item_Type>
+	bool queue<Item_Type>::empty() const {
+		return front_of_queue == NULL;
+	}
+
+template<typename Item_Type>
+	size_t queue<Item_Type>::size() const {
+		return num_items;
+	}
+#endif
