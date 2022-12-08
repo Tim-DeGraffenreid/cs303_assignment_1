@@ -13,6 +13,10 @@ To run the code for assignment_3_question_2
  
 ![Assignment3-Question2](https://user-images.githubusercontent.com/97173682/206345772-d18f016e-027a-4225-a4e5-f82c2e80f175.png)
 
+assignment_3_question_3 is a pdf in the corresponding folder
+
+assignment_3_question_4 is a pdf in the corresponding folder
+
 To run the code for assignment_3_question_5
   1) run the application
   2) it displays the contents of the map
