@@ -1,4 +1,4 @@
-# cs303_assignment_1
+# cs303_assignment_3
 
 To run the code for assignment_1
   1) run the application
